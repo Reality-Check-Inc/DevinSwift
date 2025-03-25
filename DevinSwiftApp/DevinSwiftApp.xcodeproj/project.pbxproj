@@ -38,23 +38,23 @@
 		ABCDEF092D932308007135DB /* ChatBubbleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBubbleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedRootGroup section */
+/* Begin PBXGroup section */
 		155482282D9322F4007135DB /* DevinSwiftApp */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
+			isa = PBXGroup;
 			path = DevinSwiftApp;
 			sourceTree = "<group>";
 		};
 		155482392D9322F4007135DB /* DevinSwiftAppTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
+			isa = PBXGroup;
 			path = DevinSwiftAppTests;
 			sourceTree = "<group>";
 		};
 		155482432D9322F4007135DB /* DevinSwiftAppUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
+			isa = PBXGroup;
 			path = DevinSwiftAppUITests;
 			sourceTree = "<group>";
 		};
-/* End PBXFileSystemSynchronizedRootGroup section */
+/* End PBXGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		155482232D9322F4007135DB /* Frameworks */ = {
@@ -164,9 +164,6 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				155482282D9322F4007135DB /* DevinSwiftApp */,
-			);
 			name = DevinSwiftApp;
 			packageProductDependencies = (
 			);
@@ -187,9 +184,6 @@
 			dependencies = (
 				155482382D9322F4007135DB /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				155482392D9322F4007135DB /* DevinSwiftAppTests */,
-			);
 			name = DevinSwiftAppTests;
 			packageProductDependencies = (
 			);
@@ -209,9 +203,6 @@
 			);
 			dependencies = (
 				155482422D9322F4007135DB /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				155482432D9322F4007135DB /* DevinSwiftAppUITests */,
 			);
 			name = DevinSwiftAppUITests;
 			packageProductDependencies = (
