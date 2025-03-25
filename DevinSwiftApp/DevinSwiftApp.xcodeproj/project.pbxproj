@@ -27,6 +27,15 @@
 		155482262D9322F4007135DB /* DevinSwiftApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DevinSwiftApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		155482362D9322F4007135DB /* DevinSwiftAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DevinSwiftAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		155482402D9322F4007135DB /* DevinSwiftAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DevinSwiftAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABCDEF012D932300007135DB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ABCDEF022D932301007135DB /* DevinSwiftAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevinSwiftAppApp.swift; sourceTree = "<group>"; };
+		ABCDEF032D932302007135DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABCDEF042D932303007135DB /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		ABCDEF052D932304007135DB /* AudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
+		ABCDEF062D932305007135DB /* OpenAIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAIService.swift; sourceTree = "<group>"; };
+		ABCDEF072D932306007135DB /* ChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewModel.swift; sourceTree = "<group>"; };
+		ABCDEF082D932307007135DB /* AudioWaveformView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioWaveformView.swift; sourceTree = "<group>"; };
+		ABCDEF092D932308007135DB /* ChatBubbleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBubbleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -90,6 +99,54 @@
 				155482402D9322F4007135DB /* DevinSwiftAppUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		ABCDEF0A2D932309007135DB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ABCDEF042D932303007135DB /* Message.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		ABCDEF0B2D93230A007135DB /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				ABCDEF052D932304007135DB /* AudioManager.swift */,
+				ABCDEF062D932305007135DB /* OpenAIService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		ABCDEF0C2D93230B007135DB /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				ABCDEF072D932306007135DB /* ChatViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		ABCDEF0D2D93230C007135DB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				ABCDEF082D932307007135DB /* AudioWaveformView.swift */,
+				ABCDEF092D932308007135DB /* ChatBubbleView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		155482282D9322F4007135DB /* DevinSwiftApp */ = {
+			isa = PBXGroup;
+			children = (
+				ABCDEF022D932301007135DB /* DevinSwiftAppApp.swift */,
+				ABCDEF012D932300007135DB /* ContentView.swift */,
+				ABCDEF032D932302007135DB /* Info.plist */,
+				ABCDEF0A2D932309007135DB /* Models */,
+				ABCDEF0B2D93230A007135DB /* Services */,
+				ABCDEF0C2D93230B007135DB /* ViewModels */,
+				ABCDEF0D2D93230C007135DB /* Views */,
+			);
+			path = DevinSwiftApp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +293,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABCDEF112D932310007135DB /* ContentView.swift in Sources */,
+				ABCDEF122D932311007135DB /* DevinSwiftAppApp.swift in Sources */,
+				ABCDEF132D932312007135DB /* Message.swift in Sources */,
+				ABCDEF142D932313007135DB /* AudioManager.swift in Sources */,
+				ABCDEF152D932314007135DB /* OpenAIService.swift in Sources */,
+				ABCDEF162D932315007135DB /* ChatViewModel.swift in Sources */,
+				ABCDEF172D932316007135DB /* AudioWaveformView.swift in Sources */,
+				ABCDEF182D932317007135DB /* ChatBubbleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
