@@ -469,7 +469,9 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				EXECUTABLE_FOLDER_PATH = "$(WRAPPER_NAME)";
+				EXECUTABLE_PATH = "DevinSwiftApp";
+				EXECUTABLE_NAME = "DevinSwiftApp";
+				MACH_O_TYPE = mh_execute;
 			};
 			name = Debug;
 		};
@@ -498,7 +500,9 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				EXECUTABLE_FOLDER_PATH = "$(WRAPPER_NAME)";
+				EXECUTABLE_PATH = "DevinSwiftApp";
+				EXECUTABLE_NAME = "DevinSwiftApp";
+				MACH_O_TYPE = mh_execute;
 			};
 			name = Release;
 		};
