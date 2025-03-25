@@ -1,22 +1,24 @@
+//
+//  ContentView.swift
+//  DevinSwiftApp
+//
+//  Created by David N. Junod on 3/25/25.
+//
+
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "swift")
+            Image(systemName: "globe")
                 .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Welcome to DevinSwift!")
-                .font(.title)
-            Text("Built with SwiftUI")
-                .font(.subheadline)
+                .foregroundStyle(.tint)
+            Text("Hello, world!")
         }
         .padding()
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
+#Preview {
+    ContentView()
 }

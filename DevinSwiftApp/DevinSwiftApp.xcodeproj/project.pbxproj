@@ -3,26 +3,66 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		1A1A1A1A1A1A1A1A1A1A1A1A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1A1A1A1A1A1A1A1A1A1A1B /* ContentView.swift */; };
-		1A1A1A1A1A1A1A1A1A1A1A1C /* DevinSwiftAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1A1A1A1A1A1A1A1A1A1A1D /* DevinSwiftAppApp.swift */; };
-		1A1A1A1A1A1A1A1A1A1A1A1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A1A1A1A1A1A1A1A1A1A1A1F /* Assets.xcassets */; };
-		1A1A1A1A1A1A1A1A1A1A1A20 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A1A1A1A1A1A1A1A1A1A1A21 /* Preview Assets.xcassets */; };
-/* End PBXBuildFile section */
+/* Begin PBXContainerItemProxy section */
+		155482372D9322F4007135DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1554821E2D9322F3007135DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 155482252D9322F4007135DB;
+			remoteInfo = DevinSwiftApp;
+		};
+		155482412D9322F4007135DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1554821E2D9322F3007135DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 155482252D9322F4007135DB;
+			remoteInfo = DevinSwiftApp;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1A1A1A1A1A1A1A1A1A1A1A2A /* DevinSwiftApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DevinSwiftApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1A1A1A1A1A1A1A1A1A1A1A1B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		1A1A1A1A1A1A1A1A1A1A1A1D /* DevinSwiftAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevinSwiftAppApp.swift; sourceTree = "<group>"; };
-		1A1A1A1A1A1A1A1A1A1A1A1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1A1A1A1A1A1A1A1A1A1A1A21 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		155482262D9322F4007135DB /* DevinSwiftApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DevinSwiftApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		155482362D9322F4007135DB /* DevinSwiftAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DevinSwiftAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		155482402D9322F4007135DB /* DevinSwiftAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DevinSwiftAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		155482282D9322F4007135DB /* DevinSwiftApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DevinSwiftApp;
+			sourceTree = "<group>";
+		};
+		155482392D9322F4007135DB /* DevinSwiftAppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DevinSwiftAppTests;
+			sourceTree = "<group>";
+		};
+		155482432D9322F4007135DB /* DevinSwiftAppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DevinSwiftAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
 /* Begin PBXFrameworksBuildPhase section */
-		1A1A1A1A1A1A1A1A1A1A1A2F /* Frameworks */ = {
+		155482232D9322F4007135DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		155482332D9322F4007135DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1554823D2D9322F4007135DB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -32,123 +72,208 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1A1A1A1A1A1A1A1A1A1A1A32 = {
+		1554821D2D9322F3007135DB = {
 			isa = PBXGroup;
 			children = (
-				1A1A1A1A1A1A1A1A1A1A1A33 /* DevinSwiftApp */,
-				1A1A1A1A1A1A1A1A1A1A1A36 /* Products */,
+				155482282D9322F4007135DB /* DevinSwiftApp */,
+				155482392D9322F4007135DB /* DevinSwiftAppTests */,
+				155482432D9322F4007135DB /* DevinSwiftAppUITests */,
+				155482272D9322F4007135DB /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		1A1A1A1A1A1A1A1A1A1A1A36 /* Products */ = {
+		155482272D9322F4007135DB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1A1A1A1A1A1A1A1A1A1A1A2A /* DevinSwiftApp.app */,
+				155482262D9322F4007135DB /* DevinSwiftApp.app */,
+				155482362D9322F4007135DB /* DevinSwiftAppTests.xctest */,
+				155482402D9322F4007135DB /* DevinSwiftAppUITests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		1A1A1A1A1A1A1A1A1A1A1A33 /* DevinSwiftApp */ = {
-			isa = PBXGroup;
-			children = (
-				1A1A1A1A1A1A1A1A1A1A1A1D /* DevinSwiftAppApp.swift */,
-				1A1A1A1A1A1A1A1A1A1A1A1B /* ContentView.swift */,
-				1A1A1A1A1A1A1A1A1A1A1A1F /* Assets.xcassets */,
-				1A1A1A1A1A1A1A1A1A1A1A37 /* Preview Content */,
-			);
-			path = DevinSwiftApp;
-			sourceTree = "<group>";
-		};
-		1A1A1A1A1A1A1A1A1A1A1A37 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				1A1A1A1A1A1A1A1A1A1A1A21 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1A1A1A1A1A1A1A1A1A1A1A2A /* DevinSwiftApp */ = {
+		155482252D9322F4007135DB /* DevinSwiftApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1A1A1A1A1A1A1A1A1A1A1A38 /* Build configuration list for PBXNativeTarget "DevinSwiftApp" */;
+			buildConfigurationList = 1554824A2D9322F4007135DB /* Build configuration list for PBXNativeTarget "DevinSwiftApp" */;
 			buildPhases = (
-				1A1A1A1A1A1A1A1A1A1A1A2F /* Frameworks */,
-				1A1A1A1A1A1A1A1A1A1A1A39 /* Resources */,
-				1A1A1A1A1A1A1A1A1A1A1A3A /* Sources */,
+				155482222D9322F4007135DB /* Sources */,
+				155482232D9322F4007135DB /* Frameworks */,
+				155482242D9322F4007135DB /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
+			fileSystemSynchronizedGroups = (
+				155482282D9322F4007135DB /* DevinSwiftApp */,
+			);
 			name = DevinSwiftApp;
+			packageProductDependencies = (
+			);
 			productName = DevinSwiftApp;
-			productReference = 1A1A1A1A1A1A1A1A1A1A1A2A /* DevinSwiftApp.app */;
+			productReference = 155482262D9322F4007135DB /* DevinSwiftApp.app */;
 			productType = "com.apple.product-type.application";
+		};
+		155482352D9322F4007135DB /* DevinSwiftAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1554824D2D9322F4007135DB /* Build configuration list for PBXNativeTarget "DevinSwiftAppTests" */;
+			buildPhases = (
+				155482322D9322F4007135DB /* Sources */,
+				155482332D9322F4007135DB /* Frameworks */,
+				155482342D9322F4007135DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				155482382D9322F4007135DB /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				155482392D9322F4007135DB /* DevinSwiftAppTests */,
+			);
+			name = DevinSwiftAppTests;
+			packageProductDependencies = (
+			);
+			productName = DevinSwiftAppTests;
+			productReference = 155482362D9322F4007135DB /* DevinSwiftAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1554823F2D9322F4007135DB /* DevinSwiftAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 155482502D9322F4007135DB /* Build configuration list for PBXNativeTarget "DevinSwiftAppUITests" */;
+			buildPhases = (
+				1554823C2D9322F4007135DB /* Sources */,
+				1554823D2D9322F4007135DB /* Frameworks */,
+				1554823E2D9322F4007135DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				155482422D9322F4007135DB /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				155482432D9322F4007135DB /* DevinSwiftAppUITests */,
+			);
+			name = DevinSwiftAppUITests;
+			packageProductDependencies = (
+			);
+			productName = DevinSwiftAppUITests;
+			productReference = 155482402D9322F4007135DB /* DevinSwiftAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		1A1A1A1A1A1A1A1A1A1A1A29 /* Project object */ = {
+		1554821E2D9322F3007135DB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1500;
-				LastUpgradeCheck = 1500;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
 				TargetAttributes = {
-					1A1A1A1A1A1A1A1A1A1A1A2A = {
-						CreatedOnToolsVersion = 15.0;
+					155482252D9322F4007135DB = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					155482352D9322F4007135DB = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 155482252D9322F4007135DB;
+					};
+					1554823F2D9322F4007135DB = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 155482252D9322F4007135DB;
 					};
 				};
 			};
-			buildConfigurationList = 1A1A1A1A1A1A1A1A1A1A1A45 /* Build configuration list for PBXProject "DevinSwiftApp" */;
-			compatibilityVersion = "Xcode 14.0";
+			buildConfigurationList = 155482212D9322F3007135DB /* Build configuration list for PBXProject "DevinSwiftApp" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 1A1A1A1A1A1A1A1A1A1A1A32;
-			productRefGroup = 1A1A1A1A1A1A1A1A1A1A1A36 /* Products */;
+			mainGroup = 1554821D2D9322F3007135DB;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 155482272D9322F4007135DB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1A1A1A1A1A1A1A1A1A1A1A2A /* DevinSwiftApp */,
+				155482252D9322F4007135DB /* DevinSwiftApp */,
+				155482352D9322F4007135DB /* DevinSwiftAppTests */,
+				1554823F2D9322F4007135DB /* DevinSwiftAppUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1A1A1A1A1A1A1A1A1A1A1A39 /* Resources */ = {
+		155482242D9322F4007135DB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A1A1A1A1A1A1A1A1A1A1A20 /* Preview Assets.xcassets in Resources */,
-				1A1A1A1A1A1A1A1A1A1A1A1E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		155482342D9322F4007135DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1554823E2D9322F4007135DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1A1A1A1A1A1A1A1A1A1A1A3A /* Sources */ = {
+		155482222D9322F4007135DB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A1A1A1A1A1A1A1A1A1A1A1A /* ContentView.swift in Sources */,
-				1A1A1A1A1A1A1A1A1A1A1A1C /* DevinSwiftAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		155482322D9322F4007135DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1554823C2D9322F4007135DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		155482382D9322F4007135DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 155482252D9322F4007135DB /* DevinSwiftApp */;
+			targetProxy = 155482372D9322F4007135DB /* PBXContainerItemProxy */;
+		};
+		155482422D9322F4007135DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 155482252D9322F4007135DB /* DevinSwiftApp */;
+			targetProxy = 155482412D9322F4007135DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
-		1A1A1A1A1A1A1A1A1A1A1A46 /* Debug */ = {
+		155482482D9322F4007135DB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -181,6 +306,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -195,7 +321,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -205,10 +332,11 @@
 			};
 			name = Debug;
 		};
-		1A1A1A1A1A1A1A1A1A1A1A47 /* Release */ = {
+		155482492D9322F4007135DB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -241,6 +369,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -249,7 +378,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -258,7 +388,7 @@
 			};
 			name = Release;
 		};
-		1A1A1A1A1A1A1A1A1A1A1A48 /* Debug */ = {
+		1554824B2D9322F4007135DB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -278,7 +408,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.DevinSwiftApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.reality-check-inc.DevinSwiftApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -286,7 +416,7 @@
 			};
 			name = Debug;
 		};
-		1A1A1A1A1A1A1A1A1A1A1A49 /* Release */ = {
+		1554824C2D9322F4007135DB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -306,7 +436,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.DevinSwiftApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.reality-check-inc.DevinSwiftApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -314,28 +444,114 @@
 			};
 			name = Release;
 		};
+		1554824E2D9322F4007135DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.reality-check-inc.DevinSwiftAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DevinSwiftApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DevinSwiftApp";
+			};
+			name = Debug;
+		};
+		1554824F2D9322F4007135DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.reality-check-inc.DevinSwiftAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DevinSwiftApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DevinSwiftApp";
+			};
+			name = Release;
+		};
+		155482512D9322F4007135DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.reality-check-inc.DevinSwiftAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DevinSwiftApp;
+			};
+			name = Debug;
+		};
+		155482522D9322F4007135DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.reality-check-inc.DevinSwiftAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DevinSwiftApp;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1A1A1A1A1A1A1A1A1A1A1A45 /* Build configuration list for PBXProject "DevinSwiftApp" */ = {
+		155482212D9322F3007135DB /* Build configuration list for PBXProject "DevinSwiftApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1A1A1A1A1A1A1A1A1A1A1A46 /* Debug */,
-				1A1A1A1A1A1A1A1A1A1A1A47 /* Release */,
+				155482482D9322F4007135DB /* Debug */,
+				155482492D9322F4007135DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1A1A1A1A1A1A1A1A1A1A1A38 /* Build configuration list for PBXNativeTarget "DevinSwiftApp" */ = {
+		1554824A2D9322F4007135DB /* Build configuration list for PBXNativeTarget "DevinSwiftApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1A1A1A1A1A1A1A1A1A1A1A48 /* Debug */,
-				1A1A1A1A1A1A1A1A1A1A1A49 /* Release */,
+				1554824B2D9322F4007135DB /* Debug */,
+				1554824C2D9322F4007135DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1554824D2D9322F4007135DB /* Build configuration list for PBXNativeTarget "DevinSwiftAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1554824E2D9322F4007135DB /* Debug */,
+				1554824F2D9322F4007135DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		155482502D9322F4007135DB /* Build configuration list for PBXNativeTarget "DevinSwiftAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				155482512D9322F4007135DB /* Debug */,
+				155482522D9322F4007135DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 1A1A1A1A1A1A1A1A1A1A1A29 /* Project object */;
+	rootObject = 1554821E2D9322F3007135DB /* Project object */;
 }

@@ -1,6 +1,14 @@
+//
+//  DevinSwiftAppUITestsLaunchTests.swift
+//  DevinSwiftAppUITests
+//
+//  Created by David N. Junod on 3/25/25.
+//
+
 import XCTest
 
 final class DevinSwiftAppUITestsLaunchTests: XCTestCase {
+
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
     }
@@ -9,6 +17,7 @@ final class DevinSwiftAppUITestsLaunchTests: XCTestCase {
         continueAfterFailure = false
     }
 
+    @MainActor
     func testLaunch() throws {
         let app = XCUIApplication()
         app.launch()
