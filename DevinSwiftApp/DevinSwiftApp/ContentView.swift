@@ -113,7 +113,6 @@ struct ContentView: View {
             TextField("API Key", text: $apiKey)
             Button("Save") {
                 UserDefaults.standard.set(apiKey, forKey: "openAIApiKey")
-                viewModel = ChatViewModel(apiKey: apiKey, audioManager: audioManager)
             }
             Button("Cancel", role: .cancel) {}
         } message: {

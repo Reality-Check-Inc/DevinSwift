@@ -6,6 +6,17 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		D400DBAA2D94E64300EA15FF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCDEF012D932300007135DB /* ContentView.swift */; };
+		D400DBAB2D94E64300EA15FF /* ChatBubbleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCDEF092D932308007135DB /* ChatBubbleView.swift */; };
+		D400DBAC2D94E64300EA15FF /* DevinSwiftAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCDEF022D932301007135DB /* DevinSwiftAppApp.swift */; };
+		D400DBAD2D94E64300EA15FF /* AudioWaveformView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCDEF082D932307007135DB /* AudioWaveformView.swift */; };
+		D400DBAE2D94E64300EA15FF /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCDEF042D932303007135DB /* Message.swift */; };
+		D400DBAF2D94E64300EA15FF /* ChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCDEF072D932306007135DB /* ChatViewModel.swift */; };
+		D400DBB02D94E64300EA15FF /* OpenAIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCDEF062D932305007135DB /* OpenAIService.swift */; };
+		D400DBB12D94E64300EA15FF /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCDEF052D932304007135DB /* AudioManager.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		155482372D9322F4007135DB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -39,11 +50,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		155482282D9322F4007135DB /* DevinSwiftApp */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = DevinSwiftApp;
-			sourceTree = "<group>";
-		};
 		155482392D9322F4007135DB /* DevinSwiftAppTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = DevinSwiftAppTests;
@@ -101,6 +107,20 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		155482282D9322F4007135DB /* DevinSwiftApp */ = {
+			isa = PBXGroup;
+			children = (
+				ABCDEF022D932301007135DB /* DevinSwiftAppApp.swift */,
+				ABCDEF012D932300007135DB /* ContentView.swift */,
+				ABCDEF032D932302007135DB /* Info.plist */,
+				ABCDEF0A2D932309007135DB /* Models */,
+				ABCDEF0B2D93230A007135DB /* Services */,
+				ABCDEF0C2D93230B007135DB /* ViewModels */,
+				ABCDEF0D2D93230C007135DB /* Views */,
+			);
+			path = DevinSwiftApp;
+			sourceTree = "<group>";
+		};
 		ABCDEF0A2D932309007135DB /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -133,20 +153,6 @@
 				ABCDEF092D932308007135DB /* ChatBubbleView.swift */,
 			);
 			path = Views;
-			sourceTree = "<group>";
-		};
-		155482282D9322F4007135DB /* DevinSwiftApp */ = {
-			isa = PBXGroup;
-			children = (
-				ABCDEF022D932301007135DB /* DevinSwiftAppApp.swift */,
-				ABCDEF012D932300007135DB /* ContentView.swift */,
-				ABCDEF032D932302007135DB /* Info.plist */,
-				ABCDEF0A2D932309007135DB /* Models */,
-				ABCDEF0B2D93230A007135DB /* Services */,
-				ABCDEF0C2D93230B007135DB /* ViewModels */,
-				ABCDEF0D2D93230C007135DB /* Views */,
-			);
-			path = DevinSwiftApp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -293,14 +299,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABCDEF112D932310007135DB /* ContentView.swift in Sources */,
-				ABCDEF122D932311007135DB /* DevinSwiftAppApp.swift in Sources */,
-				ABCDEF132D932312007135DB /* Message.swift in Sources */,
-				ABCDEF142D932313007135DB /* AudioManager.swift in Sources */,
-				ABCDEF152D932314007135DB /* OpenAIService.swift in Sources */,
-				ABCDEF162D932315007135DB /* ChatViewModel.swift in Sources */,
-				ABCDEF172D932316007135DB /* AudioWaveformView.swift in Sources */,
-				ABCDEF182D932317007135DB /* ChatBubbleView.swift in Sources */,
+				D400DBAA2D94E64300EA15FF /* ContentView.swift in Sources */,
+				D400DBAB2D94E64300EA15FF /* ChatBubbleView.swift in Sources */,
+				D400DBAC2D94E64300EA15FF /* DevinSwiftAppApp.swift in Sources */,
+				D400DBAD2D94E64300EA15FF /* AudioWaveformView.swift in Sources */,
+				D400DBAE2D94E64300EA15FF /* Message.swift in Sources */,
+				D400DBAF2D94E64300EA15FF /* ChatViewModel.swift in Sources */,
+				D400DBB02D94E64300EA15FF /* OpenAIService.swift in Sources */,
+				D400DBB12D94E64300EA15FF /* AudioManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,8 +467,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"DevinSwiftApp/Preview Content\"";
+				DEVELOPMENT_TEAM = X7WM6K9T24;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = because;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -489,8 +497,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"DevinSwiftApp/Preview Content\"";
+				DEVELOPMENT_TEAM = X7WM6K9T24;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = because;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

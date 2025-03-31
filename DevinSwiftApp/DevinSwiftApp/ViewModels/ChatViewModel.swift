@@ -1,7 +1,7 @@
 import Foundation
 import SwiftUI
 
-enum ChatViewState {
+enum ChatViewState: Equatable {
     case idle
     case recording
     case processing
